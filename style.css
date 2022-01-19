@@ -87,6 +87,7 @@ ul {
   justify-content: center;
   align-items: flex-start;
   margin: 0 16px;
+  gap: 8px;
 }
 
 .card-heading {
@@ -116,7 +117,9 @@ button {
 } 
 
 .content__header {
-  margin-bottom: 32px;
+  color: #1f2937;
+  font-weight: 900;
+  font-size: 36px;
 }
 
 .content__boxes {
@@ -128,4 +131,12 @@ button {
 .content__box {
   max-width: 200px;
   padding: 8px;
+}
+
+.content__box, img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  border-color: rgb(15, 135, 175);
+  border-width: 2px;
 }
