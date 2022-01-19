@@ -140,3 +140,30 @@ button {
   border-color: rgb(15, 135, 175);
   border-width: 2px;
 }
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 40px 80px;
+}
+
+.quote-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote-author {
+  color: #1F2937;
+  font-size: 18px;
+  font-weight: 700;
+  align-self: flex-end;
+}
