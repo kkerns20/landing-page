@@ -106,14 +106,19 @@ button {
 .cards div button {
   padding: 8px;
 }
+
+.card-button{
+  border: 2px solid #3882f6;
+}
 .content {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
-  gap: 52px;
+  gap: 20px;
   padding: 16px;
+  flex: 1 1 auto;
 } 
 
 .content__header {
@@ -166,4 +171,33 @@ button {
   font-size: 18px;
   font-weight: 700;
   align-self: flex-end;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.container {
+  display: flex;
+  background-color: #3882f6;
+  padding: 25px 45px;
+  flex: 1 1 0;
+  color: white;
+  justify-content: space-between;
+}
+
+.signup-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button.signup-button {
+  align-self: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 4px 18px;
 }
