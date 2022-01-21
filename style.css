@@ -198,6 +198,15 @@ button {
   justify-content: center;
 }
 
+.signup-header {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.signup-info {
+  color: #f9faf8;
+}
+
 button.signup-button {
   align-self: center;
   border: 2px solid white;
