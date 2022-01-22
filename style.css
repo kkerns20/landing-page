@@ -60,10 +60,8 @@ ul {
   margin-right: 8px;
 }
 
-.logo__img {
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
+a.img {
+  width: 50px;
 }
 
 .nav-spacer {
@@ -137,13 +135,14 @@ button {
 }
 
 .content__box {
-  max-width: 200px;
+  max-width: 400px;
   padding: 8px;
+  height: auto;
 }
 
 .content__box, img {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   border-radius: 10px;
   border-color: rgb(15, 135, 175);
   border-width: 2px;
@@ -221,4 +220,9 @@ button.signup-button {
   justify-content: center;
   align-items: center;
   background-color: #1f2937;
+}
+
+.navbar-brand.img {
+  max-width: 50px;
+  max-height: fit-content;
 }
