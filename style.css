@@ -32,11 +32,10 @@ a {
   overflow: hidden;
 }
 
-.big-buck {
-  position: relative;
-  top: -13.5vw;
-  left: -15.0vw;
-  width: 350%;
+img.big-buck {
+  /* top: -13.5vw;
+  left: -15.0vw; */
+  width: 50px;
   height: auto;
 }
 
@@ -49,6 +48,124 @@ a {
   font-size: 18px;
 }
 
+.photo {
+  background-color: #1f2937;
+  width: 50vw;
+  height: 17.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.photo-image {
+  width: 50%;
+  height: auto;
+}
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
 
+.info {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  padding: 5% 10%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3vw;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+.card-heading {
+ font-size: 4.5vw;
+ font-weight: 900;
+}
+.card-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.signup-link {
+ justify-self: start;
+ align-self: start;
+ background-color: #3882f6;
+ border-radius: 1vw;
+ font-weight: 900;
+ padding: 1vw 3vw;
+}
+.bottom {
+  border: .3vw solid white;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0%;
+  justify-content: center;
+  align-items: center;
+}
+.content-boxes {
+  display: flex;
+  flex-direction: column;
+}
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3vw;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw 0;
+}
+
+.square-photo {
+  width: 17vw;
+  height: 17vw;
+  border: .3vw solid black;
+  border-radius: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.square-photo-1 {
+  position: relative;
+  left: -3vw;
+  width: 40vw;
+}
+
+.square-photo-2 {
+  position: relative;
+  left: 2.5vw;
+  top: 2vw;
+  width: 25vw;
+}
+
+.square-photo-3 {
+  position: relative;
+  left: -14vw;
+  top: -6vw;
+  height: 30vw;
+}
+
+.square-photo-4 {
+  position: relative;
+  left: 1vw;
+  top: -3vw;
+  height: 50vw;
+}
+
+.text {
+  text-align: center;
+}
